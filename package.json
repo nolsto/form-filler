@@ -1,0 +1,19 @@
+{
+  "name": "form-filler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^0.7.6",
+    "zepto": "github:madrobby/zepto#v1.1.6"
+  },
+  "devDependencies": {
+    "exports-loader": "^0.6.2",
+    "webpack": "^1.12.0"
+  }
+}
