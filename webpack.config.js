@@ -1,20 +1,8 @@
 module.exports = {
-    entry: './index.js',
+    entry: './content.js',
     output: {
         path: __dirname,
-        filename: 'content.js'
+        filename: 'content.bundle.js'
     },
-    module: {
-        loaders: [
-            {
-                test: /node_modules\/zepto\/src\/zepto\.js$/,
-                loader: 'exports?Zepto; delete window.$; delete window.Zepto;'
-            }
-        ]
-    },
-    resolve: {
-        alias: {
-            zepto: './node_modules/zepto/src/zepto.js'
-        }
-    }
+    watch: true
 };
