@@ -10,11 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "chance": "^0.7.6",
+    "handlebars": "^4.0.5",
     "jquery": "^2.1.4",
-    "jquery-chancyforms": "git://github.com/fusionbox/jquery-chancyforms"
+    "jquery-chancyforms": "git://github.com/fusionbox/jquery-chancyforms",
+    "lodash": "^3.10.1"
   },
   "devDependencies": {
     "expose-loader": "^0.7.0",
+    "handlebars-loader": "^1.1.4",
     "webpack": "^1.12.0"
   }
 }

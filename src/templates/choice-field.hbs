@@ -1,0 +1,8 @@
+<div>
+  <label for="{{name}}">{{label}}</label>
+  <select name="{{name}}">
+    {{#each choices}}
+    <option value="{{this.[0]}}">{{this.[1]}}</option>
+    {{/each}}
+  </select>
+</div>

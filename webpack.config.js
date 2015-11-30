@@ -1,8 +1,18 @@
 module.exports = {
-    entry: './content.js',
+    entry: {
+        content: './src/content.js',
+        options: './src/options.js'
+    },
     output: {
         path: __dirname,
-        filename: 'content.bundle.js'
+        filename: '[name].bundle.js'
     },
-    watch: true
+    module: {
+        loaders: [
+            {
+                test: /\.hbs$/,
+                loader: 'handlebars-loader'
+            }
+        ]
+    }
 };

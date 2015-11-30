@@ -1,0 +1,5 @@
+<div>
+  <label for="{{name}}">{{label}}</label>
+  <input type="radio" name="{{name}}" value="0" {{#unless initial}}checked{{/unless}}>No</input>
+  <input type="radio" name="{{name}}" value="1" {{#if initial}}checked{{/if}}>Yes</input>
+</div>
