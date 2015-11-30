@@ -7,17 +7,12 @@
     "default_title": "Fill forms"
   },
   "permissions": [
-    "activeTab",
-    "contextMenus"
+    "activeTab"
   ],
   "background": {
     "scripts": [
       "background.js"
     ],
     "persistant": false
-  },
-  "options_ui": {
-    "page": "options.html",
-    "chrome_style": true
   }
 }
